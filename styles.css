@@ -11,3 +11,26 @@
 .hero{background:linear-gradient(#fff 0 38%,transparent 57%),linear-gradient(155deg,#bdd1dd,#6f8390 57%,#17252e)}
 .hero-copy{padding-top:27px}.hero h1{font-size:40px;line-height:.86}.hero-visual{height:408px}.spectacular{background:#0a0c0e}.pink{background:#f498cf}.planner{padding-top:34px}.planner h2{font-size:42px}.banks{margin-top:28px;border:1px solid #e6e6e6;border-radius:8px;padding:27px 15px;text-align:center;display:grid;gap:21px}.banks small{font-size:8px;color:#8b8b8b;letter-spacing:.4px}.banks div{display:flex;align-items:center;justify-content:space-around}.banks b{font-size:18px}.locations h2,.selection h2{font-size:41px}.site-card{box-shadow:0 2px 8px #00000008}.detail h2{font-size:36px}.detail-photo{height:455px}
 @media(max-width:370px){.logo.approved{transform:scale(.88);transform-origin:left center;width:240px}.header{padding-left:12px;padding-right:12px}.hero h1{font-size:36px}}
+
+/* Temporary photographic layer matching approved visual master.
+   Replace these URLs with Top Brands inventory photography when supplied. */
+.hero{
+ background:
+ linear-gradient(#fff 0 31%,rgba(255,255,255,.96) 38%,rgba(255,255,255,0) 57%),
+ url("https://static.taggify.net/screens/grupo-pol/tgx_10762-mx-cdmx-2do-piso-periferico-y-san-antonio-v2.jpg") center 62%/cover no-repeat;
+}
+.cityline{display:none}
+.hero-visual{height:425px}
+.spectacular{display:none}
+.photo,.detail-photo{
+ background-image:url("https://busbus.com.mx/img/muros-y-espectaculares/DSC_0329.jpg");
+ background-size:cover;background-position:center;
+}
+.photo2{background-image:url("https://www.diariodemexico.com/sites/default/files/styles/twitter/public/2024-02/seduvi-vallas-publicitarias-cdmx.jpg?h=c39e5c74&itok=aGgUjdb4")}
+.photo3{background-image:url("https://static.taggify.net/screens/grupo-pol/tgx_10762-mx-cdmx-2do-piso-periferico-y-san-antonio-v2.jpg")}
+.detail-photo{background-image:url("https://static.taggify.net/screens/grupo-pol/tgx_10762-mx-cdmx-2do-piso-periferico-y-san-antonio-v2.jpg");background-position:center}
+.photo .ad,.detail-photo .ad{background:#0b0c0eeb;border:1px solid #ffffff16}
+.thumb{background-size:cover;background-position:center}
+.thumb.photo1{background-image:url("https://busbus.com.mx/img/muros-y-espectaculares/DSC_0329.jpg")}
+.thumb.photo2{background-image:url("https://www.diariodemexico.com/sites/default/files/styles/twitter/public/2024-02/seduvi-vallas-publicitarias-cdmx.jpg?h=c39e5c74&itok=aGgUjdb4")}
+.thumb.photo3{background-image:url("https://static.taggify.net/screens/grupo-pol/tgx_10762-mx-cdmx-2do-piso-periferico-y-san-antonio-v2.jpg")}
