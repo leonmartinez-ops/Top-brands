@@ -15,3 +15,27 @@
 }
 .card,.clients,.steps button,.selection textarea{box-shadow:none!important}
 .pic,.detailpic,.mini{background-color:#dbe7ec}
+
+/* MASTER v1 — visual lock to approved reference, iPhone proportions */
+.top{height:86px!important;background:linear-gradient(180deg,#d8f2ff 0%,#eefaff 100%)!important;padding:12px 18px!important}
+.brand{transform:scale(.78)!important;transform-origin:left center!important;width:235px!important}
+.hamb{font-size:0!important;width:34px!important;height:34px!important;position:relative!important}
+.hamb:before{content:"☰";font-size:30px!important;position:absolute;inset:0;color:#080808}
+.hero{height:670px!important;min-height:670px!important;background:#dff3fc!important}
+.copy{top:18px!important;left:20px!important}
+.copy h1{font-size:31px!important;line-height:.87!important;letter-spacing:-1.8px!important;margin-bottom:10px!important}
+.copy p{font-size:10px!important;line-height:1.18!important}
+.heroimg{background:linear-gradient(90deg,rgba(220,243,253,.96) 0%,rgba(220,243,253,.72) 35%,rgba(220,243,253,.05) 62%),linear-gradient(0deg,#071722 0%,rgba(7,23,34,.88) 10%,transparent 38%),url("https://static.taggify.net/screens/grupo-pol/tgx_10762-mx-cdmx-2do-piso-periferico-y-san-antonio-v2.jpg") 58% center/cover no-repeat!important}
+.creative{top:272px!important;left:27%!important;width:55%!important;height:132px!important;padding:15px!important;font-size:19px!important;line-height:.82!important}
+.homeactions{bottom:54px!important;left:14px!important;right:14px!important;gap:7px!important}
+.homeactions .btn{height:44px!important}
+.cities{height:49px!important}
+.page{min-height:756px!important;padding:30px 20px!important}
+.page h2{font-size:34px!important;line-height:.88!important}
+.planner .steps{margin:20px 0!important;gap:8px!important}
+.planner .steps button{height:65px!important}
+.locations h2{font-size:36px!important}
+.pic{height:171px!important}
+.detailpic{height:397px!important}
+.mapview{min-height:756px!important}
+.bigmap{height:385px!important}
